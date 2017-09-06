@@ -1,0 +1,46 @@
+.nav {
+		margin-bottom:10px;
+		width:100vw;
+		ul li a {
+					text-align:center;
+					display:block;
+					background: #000;
+					color:white;
+					padding: 8px 10px;
+					font-size: 12px;
+					text-decoration:none;
+					border-bottom: 1px solid #ccc;
+		}
+	 }
+
+@media (min-width: 768px) {
+  .nav {
+    		width: 100vw; 
+		ul { overflow:hidden;
+		
+			li{
+				float:left;
+				width:192px;
+				}
+			}
+		} 
+			
+
+							}
+
+@media (min-width: 1180px) {
+  .nav {
+    margin-top:3px;
+    margin-bottom:10px;
+    width: 100vw; 
+		ul{
+			li {		
+				float:left;
+				width:360px;
+			}
+		}
+
+		} 					}
+
+
+
