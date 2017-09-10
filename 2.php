@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<div class="container">
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="/integrador/css/style.css">
@@ -15,8 +16,14 @@
       <input type="text" name="search" placeholder="search">
     </div>
   </div>
-    <?php include_once('navbar.php'); ?>
-<div class="container">
+  <div class="row barra">
+    <div class="col-md-12 col-lg-9 d-flex align-items-center">
+      <?php include_once('navbar.php'); ?>
+    </div>
+    <div class="col-lg-3">
+      <img src="/integrador/images/tipo.png" class="img-responsive tipo" alt="">
+    </div>
+  </div>
   <div class="row">
     <div class="col-md-9 col-lg-9">
       <div class="row cuadro">
@@ -32,9 +39,7 @@
       <?php include_once ('sidebar.php') ?>
     </div>
   </div>
-
-
-  </div>
 </div>
 </body>
+</div>
 </html>
