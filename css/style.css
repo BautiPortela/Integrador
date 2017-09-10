@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (min-width: 320px) {
 input[type=text] {
     width: 80px;
 }
@@ -6,49 +6,75 @@ input[type=text] {
   width: 28px;
   margin-top: -4px;
 }
-.navbar-expand{-sm|-md|-lg|-xl} {
-  background-color: #ccc;
-}
-.navbar {
-  background-color: #ccc;
-  display: inline-block;
-}
-}
-
-@media (max-width: 768px){
-.glass {
-  width: 28px;
-  margin-top: -4px;
-  }
-.navbar .nav-item .nav-link {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  }
-.tipo {
-  border-radius: 100%;
-  }
 .navbar {
   background-color: #ccc;
   display: block;
   text-align: center;
 }
+.nav-link {
+  display: inline-block;
+}
+.tipo {
+  display: none;
+}
 }
 
-@media (min-width: 769px){
+@media (min-width: 768px){
+  input[type=text] {
+      width: 80px;
+  }
+.glass {
+  width: 28px;
+  margin-top: -4px;
+  }
+.navbar {
+    background-color: #ccc;
+    display: block;
+    text-align: center;
+}
+.navbar .nav-item .nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vw;
+  }
+.tipo {
+  border-radius: 100%;
+  display: none;
+  }
+
+.boton {
+  margin: 10px 15px 15px 15px;
+}
+.cuadro {
+  margin-top: 20px;
+  border-width: 10px;
+  border-color: #ccc;
+  border-style: solid;
+  padding: 10px 10px 10px 10px;
+}
+.venta {
+  margin-left: 55px;
+}
+}
+
+@media (min-width: 992px){
 .glass {
   width: 28px;
   margin-top: -4px;
 }
+.navbar {
+  background-color: purple;
+}
+.navbar .nav {
+  display: inline-block;
+  float: none;
+}
 .navbar .nav-item .nav-link {
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  font-size: 6.5vmin;
 }
 .tipo {
   border-radius: 100%;
-  display: inline;
-}
-.navbar {
-  background-color: #ccc;
+  display: block;
 }
 .boton {
   margin: 10px 15px 15px 15px;
@@ -62,5 +88,8 @@ input[type=text] {
 }
 .venta {
   margin-left: 55px;
+}
+.barra {
+  background-color: #ccc;
 }
 }
